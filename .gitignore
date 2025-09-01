@@ -1,0 +1,18 @@
+# Binários e pastas de build
+bin/
+obj/
+
+# Arquivos do Visual Studio
+.vs/
+*.user
+*.suo
+
+# Arquivos de ambiente
+.env
+
+# Logs
+*.log
+
+# Pacotes NuGet
+*.nupkg
+packages/
