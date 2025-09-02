@@ -27,10 +27,10 @@ DB_PASSWORD=senha
 CREATE DATABASE carregistry;
 ```
 
-3. Importe a estrutura das tabelas:
+3. Importe o dump das tabelas no workbench:
 
 ```bash
-mysql -u seu_usuario -p carregistry < Database/schema.sql
+./CarRegistry/Database/schema.sql
 ```
 
 ---
